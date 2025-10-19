@@ -1,10 +1,11 @@
 # TongYi DeepResearch - LangGraph
 
-基于 LangGraph 框架的智能研究助手，使用 ReAct Agent 模式实现多工具协作的深度研究能力。
+这是一个基于Tongyi-DeepResearch开源项目的LangGraph版本的深度研究助手，采用 ReAct Agent 模式实现多工具协作的深度研究能力。本项目基于Tongyi-DeepResearch-30B-A3B模型构建，提供强大的多轮对话和工具调用能力。
 
 ## 功能特性
 
-- 🤖 基于 LangGraph 的 ReAct Agent 架构
+- � 基于Tongyi-DeepResearch-30B-A3B模型，提供强大的推理和工具调用能力
+- �🤖 基于ReAct Agent 范式
 - 🔍 集成多种工具：网页搜索、学术搜索、文件解析、Python 代码执行等
 - 📊 支持多种文件格式解析（PDF、Office、视频等）
 - 🌐 智能网页内容提取和摘要
@@ -17,17 +18,20 @@
 ### 环境配置
 
 1. 克隆仓库：
+
 ```bash
 git clone https://github.com/pingcy/TongyiDeepResearch-LangGraph.git
 cd TongyiDeepResearch-LangGraph
 ```
 
 2. 安装依赖：
+
 ```bash
 pip install -r requirements.txt
 ```
 
 3. 配置环境变量：
+
 ```bash
 cp .env.example .env
 # 编辑 .env 文件，填入您的 API keys 和配置
