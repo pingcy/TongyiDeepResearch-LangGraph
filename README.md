@@ -2,10 +2,14 @@
 
 这是一个基于Tongyi-DeepResearch开源项目的LangGraph版本的深度研究助手，采用 ReAct Agent 模式实现多工具协作的深度研究能力。本项目基于Tongyi-DeepResearch-30B-A3B模型构建，提供强大的多轮对话和工具调用能力。
 
+<div align="center">
+  <img src="qrcode.jpg" alt="项目二维码" width="200"/>
+</div>
+
 ## 功能特性
 
 - � 基于Tongyi-DeepResearch-30B-A3B模型，提供强大的推理和工具调用能力
-- �🤖 基于ReAct Agent 范式
+- 🐾� 基于ReAct Agent 范式
 - 🔍 集成多种工具：网页搜索、学术搜索、文件解析、Python 代码执行等
 - 📊 支持多种文件格式解析（PDF、Office、视频等）
 - 🌐 智能网页内容提取和摘要
@@ -45,7 +49,7 @@ cp .env.example .env
 # 模型路径
 MODEL_PATH=/path/to/your/model
 
-# API Keys
+# Tongyi-DeepResearch API Keys
 API_KEY=your_openai_compatible_api_key
 API_BASE=your_api_base_url
 
@@ -58,13 +62,6 @@ DASHSCOPE_API_KEY=your_dashscope_key
 ```
 
 ## 使用方法
-
-### 运行 LangGraph Agent
-
-```bash
-cd inference
-python run_langgraph_agent.py
-```
 
 ### 运行 Streamlit UI
 
